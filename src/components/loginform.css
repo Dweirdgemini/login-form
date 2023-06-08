@@ -54,11 +54,14 @@
 
 input{
     border: none;
+    height: 4em;
+    width: 80%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+
 }
 
 input:focus{
     outline-color: rgb(32, 177,255);
-    height: 4em;
-    width: 80%;
-    border-radius: 0.25em;
 }
