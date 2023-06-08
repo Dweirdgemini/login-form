@@ -8,6 +8,18 @@ const LoginForm = () => {
             <input type='text' placeholder='username'/>
             <input type='password' placeholder='password'/>
 
+
+
+
+        <div className='login-btn'>Login</div>
+
+        <p className='text'>or login using</p>
+        
+        <div className='alt-login'>
+            <div className='facebook'></div>
+            <div className='gmail'></div>
+        </div>
+
         </div>
     )
 
